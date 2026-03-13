@@ -1,9 +1,10 @@
 ---
 title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
+date: '{{ .Date }}'
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
+# categories: ["日常"]
 author: "向洵"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -30,7 +31,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/xmujin/myblog/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
