@@ -1,12 +1,40 @@
 ---
-date: '2026-03-13T17:09:02+08:00'
-draft: true
-title: 'Md文档语法介绍'
-description: "作品描述"
-#tags: ["markdown", "css", "html", "themes"]   # 标签（便于分类或搜索）
-#categories: ["themes", "syntax"]             # 分类
-#series: ["Themes Guide"]                     # 系列文章
-#aliases: ["migrate-from-jekyl"]             # 别名 URL，用于跳转或旧链接重定向
-ShowToc: true    # 是否显示目录
-TocOpen: true    # 是否默认展开目录
+title: "My 1st post"
+date: 2020-09-15T11:30:03+00:00
+# weight: 1
+# aliases: ["/first"]
+tags: ["first"]
+author: "向洵"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: true
+draft: false
+hidemeta: false
+comments: false
+description: "Desc Text."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
+
+## 基本语法介绍
+哈哈哈 我啥也没写
