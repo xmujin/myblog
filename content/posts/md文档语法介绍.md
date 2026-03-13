@@ -1,7 +1,7 @@
 ---
-date: '{{ .Date }}'
+date: '2026-03-13T17:09:02+08:00'
 draft: true
-title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
+title: 'Md文档语法介绍'
 description: "作品描述"
 #tags: ["markdown", "css", "html", "themes"]   # 标签（便于分类或搜索）
 #categories: ["themes", "syntax"]             # 分类
