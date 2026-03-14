@@ -7,6 +7,67 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+copyright: © 2026 向洵. All Rights Reserved.
+enableEmoji: true
+
+defaultContentLanguage: zh
+languages:
+  zh:
+    languageCode: zh-CN           # 中文（中国）
+    languageDirection: ltr        # 从左到右书写
+    languageName: 中文             # 显示名称
+    title: 向洵的博客
+    params:
+      label:
+        text: "主页"
+        icon: /apple-touch-icon.png
+        iconHeight: 35
+      homeInfoParams:
+        Title: "你好  我是练习时长两年半 ! ! ! \U0001F44B"
+        Content: 欢迎访问我的博客
+    menu:
+      main:
+        - identifier: categories
+          name: 分类
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: 标签
+          url: /tags/
+          weight: 20
+        - identifier: about
+          name: 关于
+          url: /about/
+          weight: 30
+    weight: 1                     # 排序权重
+  en:
+    languageCode: en-US           # 英文（美国）
+    languageDirection: ltr        # 从左到右书写
+    languageName: English         # 显示名称
+    title: xiangxun's blog
+    params:
+      label:
+        text: "Home"
+        icon: /apple-touch-icon.png
+        iconHeight: 35
+      homeInfoParams:
+        Title: "Hi there ! ! ! \U0001F44B"
+        Content: welcome to my blog
+    menu:
+      main:
+        - identifier: categories
+          name: categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+        - identifier: about
+          name: about
+          url: /about/
+          weight: 30
+    weight: 2                     # 排序权重
 
 minify:
   disableXML: true
@@ -28,7 +89,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -39,9 +100,10 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  displayFullLangName: true
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
@@ -49,24 +111,21 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "主页"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: 做大做强，再创辉煌
+    subtitle: "QQ: 806181859"
+    imageUrl: "/img/bing.png"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: 服了
     buttons:
-      - name: Posts
+      - name: 文章
         url: posts
-      - name: Tags
+      - name: 标签
         url: tags
 
   # home-info mode
@@ -77,6 +136,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/xmujin"
+    - name: bilibili
+      url: "https://space.bilibili.com/403427727"
 
   analytics:
     google:
@@ -93,7 +154,7 @@ params:
 
   editPost:
     URL: "https://github.com/xmujin/myblog/blob/main/content"
-    Text: "Suggest Changes" # edit text
+    Text: "修改建议" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -107,27 +168,21 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categories
-      name: 分类
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: 标签
-      url: /tags/
-      weight: 20
-    - identifier: about
-      name: 关于
-      url: /about/
-      weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
-markup:
+markup: #代码高亮配置
   highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: false # 是否把每一行渲染成锚点，前提是行号有效
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: '' # 高亮特定行
+    hl_inline: false # 是否允许行内高亮
+    lineAnchors: ''
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false # 不生成内联样式
+    style: monokailight
+    tabWidth: 4
+    wrapperClass: highlight

@@ -3,7 +3,6 @@ title: "关于"
 date: '2026-03-13T21:06:02+08:00'
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
 author: "向洵"
 # author: ["Me", "You"] # multiple authors
 showToc: false
@@ -11,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "向阳而立，洵美且毅."
+description: "明月直入，无心可猜."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false

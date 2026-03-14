@@ -3,8 +3,8 @@ title: "我的第一篇博客"
 date: '2026-03-13T19:54:56+08:00'
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
-categories: ["日常sdf","C++","sdfsdfsa"]
+# tags: ["nothing"]
+categories: ["日常"]
 author: "向洵"
 showToc: true
 TocOpen: true
@@ -29,11 +29,10 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/xmujin/myblog/blob/main/content"
-    Text: "修改建议" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
 
-## 你好
-红红火火恍恍惚惚
+## hugo command
+```
+hugo new posts/post-name.md # add post
+hugo server -D # start local build
+```
