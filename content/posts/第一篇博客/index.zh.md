@@ -93,7 +93,7 @@ _________________
 对应的HTML代码：`<a href="超链接地址" title="超链接title">超链接显示名</a>`
 
 ### 图片语法
-插入图片Markdown语法代码：`![图片alt](图片链接 "图片title")`。
+插入图片Markdown语法代码：`![图片显示不了的替代](图片链接 "鼠标移动到上面的标题图片title")`。
 
 对应的HTML代码：`<img src="图片链接" alt="图片alt" title="图片title">`
 ![显示不了哦](test.jpg "小可爱哦")

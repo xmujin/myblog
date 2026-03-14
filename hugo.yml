@@ -7,10 +7,10 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-copyright: © 2026 向洵. All Rights Reserved.
-enableEmoji: true
+copyright: © 2026 向洵. All Rights Reserved. # 版权声明
+enableEmoji: true # 启动表情扩展
 
-defaultContentLanguage: zh
+defaultContentLanguage: zh # 设置默认语言
 languages:
   zh:
     languageCode: zh-CN           # 中文（中国）
@@ -105,10 +105,10 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
+    favicon: "/favicon/favicon.ico"
+    favicon16x16: "/favicon/favicon-16x16.png"
+    favicon32x32: "/favicon/favicon-32x32.png"
+    apple_touch_icon: "/favicon/apple-touch-icon.png"
     safari_pinned_tab: "<link / abs url>"
 
   
