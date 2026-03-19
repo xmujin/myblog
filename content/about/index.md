@@ -39,4 +39,4 @@ editPost:
 邮箱: xiangxun76@gmail.com
 
 ## 友链
-[熊涛](https://hollow.love/ "666") - 哪有下棋不戴头盔的
+<a href="https://hollow.love/" title="666" style="color: red;">熊涛 - 哪有下棋不戴头盔的</a>

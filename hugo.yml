@@ -116,7 +116,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: 做大做强，再创辉煌
+    title: 做大做强，再创辉煌!✨
     subtitle: "QQ: 806181859"
     imageUrl: "/img/hhh.jpg"
     imageWidth: 120
@@ -172,6 +172,9 @@ params:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup: #代码高亮配置
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     anchorLineNos: false # 是否把每一行渲染成锚点，前提是行号有效
     codeFences: true
