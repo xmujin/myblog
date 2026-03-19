@@ -33,6 +33,10 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-
+## 个人介绍
+我会唱、跳、rap篮球
 ## 联系方式
 邮箱: xiangxun76@gmail.com
+
+## 友链
+[熊涛](https://hollow.love/ "666") - 哪有下棋不戴头盔的
