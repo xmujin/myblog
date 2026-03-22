@@ -186,6 +186,6 @@ markup: #代码高亮配置
     lineNos: true
     lineNumbersInTable: true
     noClasses: false # 不生成内联样式
-    style: monokailight
+    style: github
     tabWidth: 4
     wrapperClass: highlight
